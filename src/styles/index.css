@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'segoeBold';
+  src: url('../../public//fonts//Segoe\ UI\ Bold.ttf');
+}
+
+@font-face {
+  font-family: 'segoeNorm';
+  src: url('../../public//fonts//Segoe\ UI.ttf');
+}
