@@ -11,3 +11,15 @@
   font-family: 'segoeNorm';
   src: url('../../public//fonts//Segoe\ UI.ttf');
 }
+
+.custom-table {
+  border-collapse: separate;
+}
+
+.custom-table td {
+  padding: 5px;
+
+  border: 2px solid rgba(0, 0, 0, 0.126);
+  border-radius: 10px;
+  border-collapse: separate;
+}

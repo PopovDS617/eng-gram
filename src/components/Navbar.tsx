@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import HomeIcon from './icons/HomeIcon';
 
 type Props = {};
 
@@ -10,12 +11,16 @@ const Navbar = (props: Props) => {
 
   return (
     <div className="flex w-full justify-center p-2">
-      home
+      <Link href="/">
+        <div className="text-white mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer text-2xl hover:text-customBlue">
+          <HomeIcon color="currentColor" />
+        </div>
+      </Link>
       <ul className="    border-transparent p-2 font-segoeNorm text-2xl flex justify-center w-full">
         <Link href="/basic">
           <li
             className={`border-transparent mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer ${
-              currentPath === '/basic'
+              currentPath.includes('basic')
                 ? 'text-customBlue border-customBlue border-b-2'
                 : 'hover:border-b-2 hover:border-white text-white'
             }`}
@@ -26,7 +31,7 @@ const Navbar = (props: Props) => {
         <Link href="/intermediate">
           <li
             className={`border-transparent mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer ${
-              currentPath === '/intermediate'
+              currentPath.includes('intermediate')
                 ? 'text-customBlue border-customBlue border-b-2'
                 : 'hover:border-b-2 hover:border-white text-white'
             }`}
@@ -37,7 +42,7 @@ const Navbar = (props: Props) => {
         <Link href="/advanced">
           <li
             className={`border-transparent mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer ${
-              currentPath === '/advanced'
+              currentPath.includes('advanced')
                 ? 'text-customBlue border-customBlue border-b-2'
                 : 'hover:border-b-2 hover:border-white text-white'
             }`}
@@ -46,7 +51,11 @@ const Navbar = (props: Props) => {
           </li>
         </Link>
       </ul>
-      Source About
+      <Link href="/about">
+        <div className="text-white mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer text-2xl hover:text-customBlue">
+          About
+        </div>
+      </Link>
     </div>
   );
 };

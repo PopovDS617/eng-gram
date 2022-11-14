@@ -14,12 +14,12 @@ const BasicPage = (props: Props) => {
           <div className="text-4xl">Tenses</div>
           <div className="flex flex-col sm:flex-row   sm:w-full justify-center mt-5 mr-10 w-4/6 ">
             <div className="border-2 border-customBlue rounded-lg p-4 mr-5 mt-5 sm:mt-0">
-              <Link href="/basic/past-simple">
+              <Link href="/basic/tenses/past-simple">
                 <div className=" text-2xl cursor-pointer hover:text-customBlue transition-all duration-100">
                   Past simple
                 </div>
               </Link>
-              <Link href="/basic/past-simple">
+              <Link href="/basic/tenses/present-simple">
                 <div className=" text-2xl cursor-pointer hover:text-customBlue transition-all duration-100">
                   Present simple
                 </div>
