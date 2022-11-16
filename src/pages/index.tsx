@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import PageLayout from '../components/layouts/PageLayout';
 
 export default function Home() {
   return (
+    <PageLayout>
     <div className="flex flex-col justify-start items-center h-full">
       <h1 className="font-segoeBold text-8xl text-customBlue h-1/6 pt-5 ">
         English grammar
@@ -24,5 +26,6 @@ export default function Home() {
         </Link>
       </ul>
     </div>
+      </PageLayout>
   );
 }
