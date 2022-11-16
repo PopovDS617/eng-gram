@@ -44,7 +44,7 @@ const PastSimplePage = (props: Props) => {
               Interrogative
             </td>
             <td>Did + I + V?</td>
-            <td>Did I work yesterday?</td>
+            <td>Did I work<span className="text-customBlue">_</span> yesterday?</td>
           </tr>
           <tr>
             <td>Did + I + V?</td>
@@ -55,13 +55,13 @@ const PastSimplePage = (props: Props) => {
 
           <tr>
             <td className="text-customBlue">Use</td>
-            <td >
+            <td colSpan={2} >
               action finished in the past, mostly connected with an expression of time (no connection to the present)
             </td>
           </tr>
           <tr>
             <td className="text-customBlue">Signal words</td>
-            <td >
+            <td colSpan={2} >
             yesterday, last Monday, two day ago, in 1990
             </td>
           </tr>
