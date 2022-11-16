@@ -18,12 +18,12 @@ const PresentSimplePage = (props: Props) => {
               Affirmative
             </td>
             <td>I, you, we, they + V</td>
-            <td>I work</td>
+            <td>I eat pizza everyday</td>
           </tr>
           <tr>
             <td>He, she, it + Vs</td>
             <td>
-              He work<span className="text-customBlue">s</span>
+              He eat<span className="text-customBlue">s</span> pizza everyday
             </td>
           </tr>
           <tr>
@@ -31,12 +31,12 @@ const PresentSimplePage = (props: Props) => {
               Negative
             </td>
             <td>I, you, we, they + don't + V</td>
-            <td>I don't work</td>
+            <td>I don't eat pizza</td>
           </tr>
           <tr>
             <td>He, she, it + doesn't + V</td>
             <td>
-              He doesn't work<span className="text-customBlue">_</span>
+              He doesn't eat<span className="text-customBlue">_</span> pizza
             </td>
           </tr>
           <tr>
@@ -44,12 +44,12 @@ const PresentSimplePage = (props: Props) => {
               Interrogative
             </td>
             <td>Do I, you, we, they + V?</td>
-            <td>Do you play tennis?</td>
+            <td>Do you eat pizza?</td>
           </tr>
           <tr>
             <td>Does he, she, it + V?</td>
             <td>
-              Does he play<span className="text-customBlue">_</span> tennis?
+              Does he eat<span className="text-customBlue">_</span> pizza?
             </td>
           </tr>
 
