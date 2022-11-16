@@ -18,12 +18,12 @@ const PastSimplePage = (props: Props) => {
               Affirmative
             </td>
             <td>I + V<sub>ed</sub></td>
-            <td>I worked yesterday</td>
+            <td>I work<span className="text-customBlue">ed</span> yesterday</td>
           </tr>
           <tr>
             <td>I + V<sub>2</sub></td>
             <td>
-              I ate pizza yesterday
+              I <span className="text-customBlue">ate</span> pizza yesterday
             </td>
           </tr>
           <tr>
@@ -55,14 +55,14 @@ const PastSimplePage = (props: Props) => {
 
           <tr>
             <td className="text-customBlue">Use</td>
-            <td colSpan={2}>
+            <td >
               action finished in the past, mostly connected with an expression of time (no connection to the present)
             </td>
           </tr>
           <tr>
             <td className="text-customBlue">Signal words</td>
-            <td colSpan={2}>
-            yesterday, last ..., ... ago, in 1990
+            <td >
+            yesterday, last Monday, two day ago, in 1990
             </td>
           </tr>
         </table>
