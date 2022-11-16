@@ -43,11 +43,11 @@ const PresentSimplePage = (props: Props) => {
             <td rowSpan={2} className="text-customBlue">
               Interrogative
             </td>
-            <td>Do I, you, we, they + V?</td>
+            <td>Do + I, you, we, they + V?</td>
             <td>Do you eat pizza?</td>
           </tr>
           <tr>
-            <td>Does he, she, it + V?</td>
+            <td>Does + he, she, it + V?</td>
             <td>
               Does he eat<span className="text-customBlue">_</span> pizza?
             </td>
