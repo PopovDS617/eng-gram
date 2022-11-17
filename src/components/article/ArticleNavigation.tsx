@@ -16,7 +16,7 @@ const ArticleNavigation = (props: Props) => {
   };
 
   return (
-    <div className="flex justify-center w-4/6 ml-10 ">
+    <div className="flex justify-start items-center w-4/6 ml-10 ">
       <Link href={`/${props.href}`}>
         <div
           className="text-white mr-2 text-3xl cursor-pointer hover:text-customBlue w-20 flex justify-center"
