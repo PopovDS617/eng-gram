@@ -18,44 +18,38 @@ const PresentSimplePage = (props: Props) => {
               Affirmative
             </td>
             <td>I, you, we, they + V</td>
-            <td>I eat pizza everyday</td>
+          
           </tr>
           <tr>
             <td>He, she, it + Vs</td>
-            <td>
-              He eat<span className="text-customBlue">s</span> pizza everyday
-            </td>
+         
           </tr>
           <tr>
             <td rowSpan={2} className="text-customBlue">
               Negative
             </td>
             <td>I, you, we, they + don't + V</td>
-            <td>I don't eat pizza</td>
+           
           </tr>
           <tr>
             <td>He, she, it + doesn't + V</td>
-            <td>
-              He doesn't eat<span className="text-customBlue">_</span> pizza
-            </td>
+          
           </tr>
           <tr>
             <td rowSpan={2} className="text-customBlue">
               Interrogative
             </td>
             <td>Do + I, you, we, they + V?</td>
-            <td>Do you eat pizza?</td>
+          
           </tr>
           <tr>
             <td>Does + he, she, it + V?</td>
-            <td>
-              Does he eat<span className="text-customBlue">_</span> pizza?
-            </td>
+           
           </tr>
 
           <tr>
             <td className="text-customBlue">Use</td>
-            <td colSpan={2}>
+            <td>
               <ul className="ml-5 list-disc">
                 <li>something happens repeatedly</li>
                 <li>how often something happens</li>
@@ -70,9 +64,24 @@ const PresentSimplePage = (props: Props) => {
           </tr>
           <tr>
             <td className="text-customBlue">Signal words</td>
-            <td colSpan={2}>
+            <td>
               every day, sometimes, always, often, usually, seldom, never, first
               ... then
+            </td>
+          </tr>
+            <tr>
+            <td className="text-customBlue">Examples</td>
+            <td>
+              <ul className="ml-5 list-disc">
+                <li>I eat pizza everyday</li>
+                <li>She play<span className="text-customBlue">s</span> tennis</li>
+                <li>We don't work</li>
+                <li>Does he play football every weekend?</li>
+                <li>
+                 The train arrive<span className="text-customBlue">s</span> at 18:30
+                </li>
+               
+              </ul>
             </td>
           </tr>
         </table>
@@ -82,3 +91,5 @@ const PresentSimplePage = (props: Props) => {
 };
 
 export default PresentSimplePage;
+
+ 
