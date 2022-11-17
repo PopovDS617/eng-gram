@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <PageLayout>
     <div className="flex flex-col justify-start items-center h-full">
-      <h1 className="font-segoeBold text-3xl md:text-7xl text-customBlue h-1/6 pt-5 text-center ">
+      <h1 className="font-segoeBold text-3xl md:text-7xl text-customBlue h-1/6 pt-5 text-center pl-10 pr-10 ">
         English grammar simplified
       </h1>
       <ul className="text-customBlue font-segoeNorm text-2xl md:text-5xl mt-20">
