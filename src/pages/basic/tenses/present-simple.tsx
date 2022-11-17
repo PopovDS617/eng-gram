@@ -12,7 +12,7 @@ const PresentSimplePage = (props: Props) => {
       <ArticleContainer>
         <ArticleNavigation href="basic" title="Present Simple" />
 
-        <table className="text-sm md:text-xl mt-20 w-6/6 md:w-4/6 m-auto custom-table  ">
+        <table className="text-sm md:text-2xl mt-20 w-6/6 md:w-3/6 m-auto custom-table  ">
           <tr>
             <td rowSpan={2} className="text-customBlue  ">
               Affirmative
