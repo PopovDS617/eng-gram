@@ -14,6 +14,7 @@
 
 body{
   background-color:#282c34;
+  overflow:auto;
 }
 
 .custom-table {
