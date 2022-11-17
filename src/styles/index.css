@@ -22,7 +22,8 @@ body{
 }
 
 .custom-table td {
-  padding: 5px;
+  padding-top: 5px;
+   padding-bottom: 5px;
 
   /*  border: 2px solid rgba(0, 0, 0, 0.126);
   border-radius: 10px;
