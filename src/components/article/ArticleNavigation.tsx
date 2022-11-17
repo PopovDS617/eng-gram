@@ -19,15 +19,15 @@ const ArticleNavigation = (props: Props) => {
     <div className="flex justify-start items-center w-4/6 ml-10 ">
       <Link href={`/${props.href}`}>
         <div
-          className="text-white mr-2 text-3xl cursor-pointer hover:text-customBlue w-20 flex justify-center"
+          className="text-white mr-2 text-xl md:text-3xl cursor-pointer hover:text-customBlue w-20 flex justify-center"
           onMouseEnter={hoverHandler}
           onMouseLeave={hoverHandler}
         >
           {isArrowIcon ? <ArrowBack color="currentColor" /> : props.href}
         </div>
       </Link>
-      <span className="mr-2 text-3xl">/</span>
-      <div className="text-5xl text-customBlue">{props.title}</div>
+      <span className="mr-2 text-xl md:text-3xl">/</span>
+      <div className="text-xl md:text-5xl text-customBlue">{props.title}</div>
     </div>
   );
 };
