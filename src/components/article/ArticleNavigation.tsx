@@ -26,8 +26,8 @@ const ArticleNavigation = (props: Props) => {
           {isArrowIcon ? <ArrowBack color="currentColor" /> : props.href}
         </div>
       </Link>
-      <span className="mr-2 text-xl md:text-3xl">/</span>
-      <div className="text-xl md:text-5xl text-customBlue">{props.title}</div>
+      <span className="mr-1 md:mr-2 text-xl md:text-3xl">/</span>
+      <div className="text-2xl md:text-5xl text-customBlue">{props.title}</div>
     </div>
   );
 };
