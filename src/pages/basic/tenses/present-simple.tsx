@@ -12,9 +12,9 @@ const PresentSimplePage = (props: Props) => {
       <ArticleContainer>
         <ArticleNavigation href="basic" title="Present Simple" />
 
-        <table className="text-sm md:text-2xl mt-10   ml-10  custom-table  ">
+        <table className="text-sm md:text-2xl mt-10 mb-12 ml-10  custom-table  ">
           <tr>
-            <td rowSpan={2} className="text-customBlue text-right mr-5  ">
+            <td rowSpan={2} className="text-customBlue text-right pr-5  ">
               Affirmative
             </td>
             <td>I, you, we, they + V</td>
@@ -25,7 +25,7 @@ const PresentSimplePage = (props: Props) => {
          
           </tr>
           <tr>
-            <td rowSpan={2} className="text-customBlue text-right mr-5">
+            <td rowSpan={2} className="text-customBlue text-right pr-5">
               Negative
             </td>
             <td>I, you, we, they + don't + V</td>
@@ -36,7 +36,7 @@ const PresentSimplePage = (props: Props) => {
           
           </tr>
           <tr>
-            <td rowSpan={2} className="text-customBlue text-right mr-5">
+            <td rowSpan={2} className="text-customBlue text-right pr-5">
               Interrogative
             </td>
             <td>Do + I, you, we, they + V?</td>
@@ -48,7 +48,7 @@ const PresentSimplePage = (props: Props) => {
           </tr>
 
           <tr>
-            <td className="text-customBlue text-right mr-5">Use</td>
+            <td className="text-customBlue text-right pr-5">Use</td>
             <td>
               <ul className="ml-5 list-disc">
                 <li>something happens repeatedly</li>
@@ -63,14 +63,14 @@ const PresentSimplePage = (props: Props) => {
             </td>
           </tr>
           <tr>
-            <td className="text-customBlue text-right mr-5">Signal words</td>
+            <td className="text-customBlue text-right pr-5">Signal words</td>
             <td>
               every day, sometimes, always, often, usually, seldom, never, first
               ... then
             </td>
           </tr>
             <tr>
-            <td className="text-customBlue text-right mr-5">Examples</td>
+            <td className="text-customBlue text-right pr-5">Examples</td>
             <td>
               <ul className="ml-5 list-disc">
                 <li>I eat pizza everyday</li>
