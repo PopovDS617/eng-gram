@@ -89,7 +89,7 @@ const BasicPage = (props: Props) => {
             </div>
           </div>
 
-          <div className="mt-10 text-4xl cursor-pointer hover:text-customBlue transition-all duration-100">
+          <div className="mt-10 text-4xl cursor-pointer hover:text-customBlue transition-all duration-100 mb-10">
             <Link href="/basic/irregular-verbs">Irregular verbs</Link>
           </div>
         </PageList>
