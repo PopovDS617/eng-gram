@@ -13,7 +13,7 @@ const IntermediatePage = (props: Props) => {
         <PageList>
           <ul className="  text-3xl">
             <Link href="intermediate/aaa">
-              <li className="list-circle text-3xl hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle text-3xl hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 Conditional clauses
               </li>
             </Link>
