@@ -12,6 +12,16 @@
   src: url('../../public//fonts//Segoe\ UI.ttf');
 }
 
+@font-face {
+  font-family: 'segoeItalic';
+  src: url('../../public//fonts//Segoe\ UI\ Italic.ttf');
+}
+
+@font-face {
+  font-family: 'segoeBoldItalic';
+  src: url('../../public//fonts//Segoe\ UI\ Bold\ Italic.ttf');
+}
+
 body{
   background-color:#282c34;
   overflow:overlay;
