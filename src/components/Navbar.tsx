@@ -52,7 +52,7 @@ const Navbar = (props: Props) => {
         </Link>
       </ul>
       <Link href="/about">
-        <div className="text-white mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer text-2xl hover:text-customBlue">
+        <div className="text-white mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer text-2xl hover:text-customBlue flex items-center justify-center">
           About
         </div>
       </Link>
