@@ -38,6 +38,8 @@ module.exports = {
     fontFamily: {
       segoeBold: ['segoeBold', 'sans-serif'],
       segoeNorm: ['segoeNorm', 'sans-serif'],
+      segoeItalic:['segoeItalic','sans-serif'],
+    segoeBoldItalic:['segoeBoldItalic','sans-serif']
     },
     listStyleType: {
       disc: 'disc',
