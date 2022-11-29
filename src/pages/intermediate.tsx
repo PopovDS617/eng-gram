@@ -18,27 +18,27 @@ const IntermediatePage = (props: Props) => {
               </li>
             </Link>
             <Link href="intermediate/aaa">
-              <li className="list-circle  hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle  hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 Prepositions of place
               </li>
             </Link>
             <Link href="intermediate/aaa">
-              <li className="list-circle   hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle   hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 Prepositions of time
               </li>
             </Link>
             <Link href="intermediate/aaa">
-              <li className="list-circle   hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle   hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 For, since, during & until
               </li>
             </Link>
             <Link href="intermediate/aaa">
-              <li className="list-circle   hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle   hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 Whether & if
               </li>
             </Link>
             <Link href="intermediate/aaa">
-              <li className="list-circle  hover:text-customBlue transition-all duration-100 cursor-pointer mt-4">
+              <li className="list-circle  hover:text-customBlue hover:list-disc transition-all duration-100 cursor-pointer mt-4">
                 Phrasal verbs
               </li>
             </Link>
