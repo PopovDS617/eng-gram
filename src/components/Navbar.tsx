@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
         </Link>
         <Link href="/advanced">
           <li
-            className={`border-transparent mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer ${
+            className={`pointer-events-none border-transparent mt-2 mr-7 pb-2 transition-all duration-300 cursor-pointer ${
               currentPath.includes('advanced')
                 ? 'text-customBlue border-customBlue border-b-2'
                 : 'hover:border-b-2 hover:border-white text-white'
